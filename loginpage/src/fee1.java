@@ -1,0 +1,61 @@
+import javax.swing.*;
+
+class fee {
+    fee(){
+        JFrame frame=new JFrame();
+        JButton re = new JButton("BACK");
+        re.addActionListener(e->{new studentpage();frame.dispose();});
+        JLabel name=new JLabel("NAME");
+        JLabel age =new JLabel("AGE");
+        JLabel no=new JLabel("CONTACT");
+        JLabel dob=new JLabel("DOB");
+        JLabel credit=new JLabel("CREDITS");
+        JLabel cgpa=new JLabel("CGPA");
+        JLabel arrear=new JLabel("ARREAR");
+        JLabel fee=new JLabel("FEE STATUS");
+        JTextField namefield=new JTextField();
+        JTextField agefield=new JTextField();
+        JTextField nofield=new JTextField();
+        JTextField dobfield=new JTextField();
+        JTextField creditfield=new JTextField();
+        JTextField cgpafield=new JTextField();
+        JTextField arrearfield=new JTextField();
+        JTextField feefield=new JTextField();
+        namefield.setBounds(200,50,200,25);
+        agefield.setBounds(200,100,200,25);
+        nofield.setBounds(200,150,200,25);
+        dobfield.setBounds(200,200,200,25);
+        creditfield.setBounds(200,250,200,25);
+        cgpafield.setBounds(200,300,200,25);
+        arrearfield.setBounds(200,350,200,25);
+        feefield.setBounds(200,400,200,25);
+        name.setBounds(50,50,200,25);
+        age.setBounds(50,100,200,25);
+        no.setBounds(50,150,200,25);
+        dob.setBounds(50,200,200,25);
+        credit.setBounds(50,250,200,25);
+        cgpa.setBounds(50,300,200,25);
+        arrear.setBounds(50,350,200,25);
+        fee.setBounds(50,400,200,25);
+        frame.add(re);
+        frame.add(name);
+        frame.add(age);
+        frame.add(no);
+        frame.add(dob);
+        frame.add(credit);
+        frame.add(cgpa);
+        frame.add(arrear);
+        frame.add(fee);
+        frame.add(namefield);
+        frame.add(agefield);
+        frame.add(nofield);
+        frame.add(dobfield);
+        frame.add(creditfield);
+        frame.add(cgpafield);
+        frame.add(arrearfield);
+        frame.add(feefield);
+        frame.setLayout(null);
+        frame.setVisible(true);
+        frame.setSize(500,500);
+    }
+}
